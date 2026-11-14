@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #101827;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    color: #38bdf8;
+    font-size: 40px;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 40px auto;
+}
+
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    width: 220px;
+    box-shadow: 0 4px 15px #00000055;
+}
+
+.card h2 {
+    color: #94a3b8;
+}
+
+.card h3 {
+    color: #38bdf8;
+    font-size: 30px;
+}
+
+.status {
+    margin: 20px auto;
+    max-width: 500px;
+    width: auto;
+}
+
+button {
+    background: #0284c7;
+    color: white;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0369a1;
+}
